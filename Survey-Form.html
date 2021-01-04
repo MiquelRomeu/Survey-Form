@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Satisfyer satisfaction survey</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Survey-Form.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Lobster&family=Monoton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 id="title">Satisfyer satisfaction survey</h1>
+                <p id="description">Thank you for taking the time to help us improve our Satisfyer</p>
+            </header>
+            <form id="survey-form">
+                <div class="form-group">
+                    <label id="name-label" for="name" class="questions">Name</label>
+                    <input
+                        id="name"
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        placeholder="Enter your name"
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <label id="email-label" for="email" class="questions">Email</label>
+                    <input
+                        id="email"
+                        type="email"
+                        name="email"
+                        class="form-control"
+                        placeholder="Enter your Email"
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <label id="number-label" for="number" class="questions">Age</label>
+                    <input
+                        id="number"
+                        type="number"
+                        name="age"
+                        class="form-control"
+                        placeholder="Age"
+                        min="18"
+                        max="99"
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <p class="questions">Which Satisfyer model do you use?</p>
+                    <select id="dropdown" name="Satisfyer-Model" class="form-control" required>
+                      <option disabled selected value>Select Satisfyer model</option>
+                      <option value="pro-2">Pro 2</option>
+                      <option value="love-triangle">Love Triangle</option>
+                      <option value="curvy-2-+">Curvy 2 +</option>
+                      <option value="penguin">Penguin</option>
+                      <option value="traveler">Traveler</option>
+                      <option value="double-whale">Double whale</option>
+                      <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p class="questions">Are you pleassed with you Satisfyer experience</p>
+                    <label class="radio">
+                      <input
+                        name="user-recommend"
+                        value="sexually-pleased"
+                        type="radio"
+                        class="input-radio"
+                        checked
+                      />Sexually pleased</label
+                    >
+                    <label class="radio"> 
+                      <input
+                        name="user-recommend"
+                        value="maybe"
+                        type="radio"
+                        class="input-radio"
+                      />Satisfyed</label
+                    >
+                    <label class="radio">
+                        <input
+                        name="user-recommend"
+                        value="still-horny-on-main"
+                        type="radio"
+                        class="input-radio"
+                      />Still horny on main</label
+                    >
+                </div>
+                <div class="form-group">
+                    <p class="questions">Since what age have you been using Satisfyer</p>
+                    <label class="radio">
+                      <input
+                        name="time-using"
+                        value="0-5"
+                        type="radio"
+                        class="input-radio"
+                        checked
+                      />0-5</label
+                    >
+                    <label class="radio">
+                      <input
+                        name="time-using"
+                        value="5-10"
+                        type="radio"
+                        class="input-radio"
+                      />5-10</label
+                    >
+                    <label class="radio">
+                        <input
+                        name="time-using"
+                        value="10-15"
+                        type="radio"
+                        class="input-radio"
+                      />10-15</label
+                    >
+                    <label class="radio">
+                        <input
+                        name="time-using"
+                        value="15-20"
+                        type="radio"
+                        class="input-radio"
+                      />15-20</label
+                    >
+                    <label class="radio">
+                        <input
+                        name="time-using"
+                        value="20-30"
+                        type="radio"
+                        class="input-radio"
+                      />20-30</label
+                    >
+                    <label class="radio">
+                        <input
+                        name="time-using"
+                        value="30-40"
+                        type="radio"
+                        class="input-radio"
+                      />30-40</label
+                    >
+                    <label class="radio">
+                        <input
+                        name="time-using"
+                        value="40+"
+                        type="radio"
+                        class="input-radio"
+                      />40+</label
+                    >
+                </div>
+                <div class="form-group">
+                    <p class="questions">
+                        Where do you use it?
+                    </p>
+                    <label class="checkbox"
+                      ><input
+                        name="where"
+                        value="my-bedroom"
+                        type="checkbox"
+                        class="input-checkbox"
+                      />My bedroom</label
+                    > 
+                    <label class="checkbox"
+                      ><input
+                        name="where"
+                        value="my-bathroom"
+                        type="checkbox"
+                        class="input-checkbox"
+                      />My bathroom</label
+                    >
+                    <label class="checkbox"
+                      ><input
+                        name="where"
+                        value="my-kitchen"
+                        type="checkbox"
+                        class="input-checkbox"
+                      />My kitchen</label
+                    >
+                    <label class="checkbox"
+                      ><input
+                        name="where"
+                        value="my-balcony"
+                        type="checkbox"
+                        class="input-checkbox"
+                      />My balcony</label
+                    >
+                    <label class="checkbox"
+                      ><input
+                        name="where"
+                        value="the-local-town-square"
+                        type="checkbox"
+                        class="input-checkbox"
+                      />The local town square</label
+                    >
+                    <label class="checkbox"
+                      ><input
+                        name="where"
+                        value="in-the-taxi"
+                        type="checkbox"
+                        class="input-checkbox"
+                      />In the taxi</label
+                    >
+                    <label class="checkbox"
+                      ><input
+                        name="where"
+                        value="my-grandmother's-chest"
+                        type="checkbox"
+                        class="input-checkbox"
+                      />My grandmother's chest</label
+                    >
+                </div>
+              
+                <div class="form-group">
+                    <p class="questions">Any comments or suggestions?</p>
+                    <textarea
+                        id="comments"
+                        class="input-textarea"
+                        name="comment"
+                        placeholder="Enter your comment here..."
+                    ></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">
+                        Submit
+                    </button>
+                </div>
+    
+    
+            </form>
+        </div>
+        <script src="Survey-Form.js"></script>
+    </body>
+</html>

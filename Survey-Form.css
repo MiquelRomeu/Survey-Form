@@ -1,0 +1,54 @@
+body::before {
+    content: "";
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../Survey-Form/Satisfyer.jpg);
+    position: fixed;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+header {
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: Lobster, sans-serif;
+}
+
+form {
+    font-family: Poppins;
+}
+
+.form-group {
+    padding: 0;
+    margin: 20px;
+}
+
+.questions {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.checkbox, .radio {
+    display: flex;
+    margin-right: 0.6rem;
+}
+
+.submit-button {
+
+}
+
+
+
+
